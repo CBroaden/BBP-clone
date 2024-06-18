@@ -13,7 +13,7 @@ const serviceCard = {
 
 const Services: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between  p-24">
+    <div className="flex min-h-screen flex-col items-center justify-between w-full py-16">
         
             <Header />
         
@@ -21,7 +21,7 @@ const Services: NextPage = () => {
       <h1 className="dancing text-center text-4xl font-bold border-b-[1px] max-w-[50%] my-8 pb-2 mx-auto border-black">
         Services
       </h1>
-      <div className="w-9/12 m-auto flex flex-wrap content-evenly items-center">
+      <div className="w-10/12 m-auto flex flex-wrap content-evenly items-center">
         <div className="relative rounded-xl shadow-black shadow-lg w-44 h-60 mx-auto my-3 bg-opacity-90 bg-white border-solid border-black border-[1px] p-2">
           <Image
             width={200}

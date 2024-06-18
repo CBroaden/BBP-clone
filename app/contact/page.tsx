@@ -12,7 +12,7 @@ const Contact: NextPage = () => {
             <Head key={'contact'}>
                 <title>Contact</title>
             </Head>
-            <div className='flex min-h-screen flex-col items-center justify-between  p-24'>
+            <div className='flex min-h-screen flex-col items-center justify-between  py-16'>
                 <Header />
                 <h1 className='dancing  text-4xl font-bold border-b-[1px] max-w-[50%] my-4 pb-2 mx-auto border-black'>
                     Contact
@@ -29,7 +29,7 @@ const Contact: NextPage = () => {
                 <h1 className='dancing  text-4xl font-bold border-b-[1px] max-w-[50%] my-4 pb-2 mx-auto border-black'>
                     Call Hours
                 </h1>
-                <p className='text-xl gentium font-bold mx-auto mb-4' >
+                <p className='text-xl gentium font-bold mx-auto ' >
                     Tuesday - Sunday: 10:00am - 6:00pm
                 </p>
             </div>

@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { Playfair_Display, Lobster_Two } from "next/font/google";
+import { GiHamburgerMenu } from "react-icons/gi";
+import Sidebar from "./sidebar";
+import  toggleSidebar  from "../functions/toggleSidebar";
 
 
 const playfair = Playfair_Display({ 
@@ -20,11 +23,11 @@ export default function Navbar() {
             <div className="max-w-5xl text-lg flex w-full mx-auto">
                 <div className="ml-2 [&>a]:hover:underline">
                     <Link href="/" className={lobster.className}>
-                        <p className="text-3xl italic">BellaBackdrops&Props</p>
+                        <p className="md:text-3xl italic">BellaBackdrops&Props</p>
                     </Link>
                 </div>
                 
-                <div className="flex text-2xl justify-around content-center font-bold my-auto ml-auto w-1/2 md:w-1/3">
+                <div className="hidden lg:flex text-2xl justify-around content-center font-bold my-auto ml-auto w-1/2 md:w-1/3">
                     <Link href="/booking" className={playfair.className}>
                         Book Us
                     </Link>
@@ -36,6 +39,13 @@ export default function Navbar() {
                     <Link href="/contact" className={playfair.className}>
                         Contact
                     </Link>
+                </div>
+                <button onClick={toggleSidebar} id="hamburger" className="lg:hidden inline-flex items-center text-3xl ml-auto mr-8">
+                    <GiHamburgerMenu />
+                </button>
+
+                <div id="sidebar" className="lg:hidden absolute right-4 top-10 ">
+                    <Sidebar />
                 </div>
                 
 

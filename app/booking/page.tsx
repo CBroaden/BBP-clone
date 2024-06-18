@@ -12,7 +12,7 @@ const Booking: NextPage = () => {
             <title>Booking</title>
         </Head>
         
-        <div className='flex min-h-screen flex-col mx-auto w-1/2 p-24 '>
+        <div className='flex min-h-screen flex-col mx-auto mb-10 w-10/12 py-16'>
             <Header />
             <h1 className='dancing text-center text-3xl font-bold border-b-[1px] max-w-[50%] my-5 pb-2 mx-auto border-black'>
                 Payment

@@ -12,13 +12,13 @@ const playfair = Playfair_Display({
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between py-16">
       <div className="">  
         <Header />      
         <Carousel2 />
         
-        <div id="container" className="max-w-4xl mx-auto w-4/5">
-        <div className="flex justify-around items-center">
+        <div id="container" className="md:max-w-4xl mx-auto w-4/5">
+        <div className="flex w-full flex-col-reverse md:flex-row justify-around items-center">
         <div className=' pt-1  md:max-w-[40%] '>
             <h1 className='text-center text-2xl border-b-[1px] max-w-[50%] my-4 pb-2 mx-auto border-black'>About Us</h1>
             <div className='text-xl '>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div className='min-w-[350px] p-8 pt-1 text-black mx-auto my-6  max-w-[75%] '>
+        <div className=' md:p-8 pt-1 text-black mx-auto my-6 '>
           <h1 className='dancing text-center text-2xl font-medium border-b-[1px] max-w-[60%] my-4 pb-2 mx-auto border-black'>Thank You!</h1>
             
           <p className='  mx-auto indent-6 mb-8 text-xl'>We would like to thank all of our lovely customers for your orders! Also to those who like, comment, share, and recommend us! It does not go unnoticed and we are thankful for the support!</p>
@@ -47,8 +47,8 @@ export default function Home() {
             <Link href='tel:3134095785' className='hover:text-[aquamarine] underline  w-fit gentium mx-auto'> (313)-409-5785 </Link>
           </div>
 
-          <div className='text-center text-xl'>
-            <Link href='mailto:bellabackdropsandprops@gmail.com' className='hover:text-[aquamarine] underline gentium mx-auto mb-4'>bellabackdropsandprops@gmail.com</Link>
+          <div className='text-center w-full text-lg'>
+            <Link href='mailto:bellabackdropsandprops@gmail.com' className='hover:text-[aquamarine] underline mx-auto mb-4'>bellabackdropsandprops@gmail.com</Link>
           </div>
         </div>
       </div>
