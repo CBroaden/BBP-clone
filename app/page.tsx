@@ -32,7 +32,7 @@ export default function Home() {
 
         <div className="pt-1 md:max-w-[40%]">
           <Image src="calendar.svg" alt="Calendar" width={400} height={400} className="mx-auto"/>
-          <Link href={'/booking'} className="mt-4 font-bold flex justify-center hover:no-underline w-fit mx-auto"><button className="bg-[aquamarine] hover:text-white hover:bg-[fuchsia] hover:scale-105 mx-auto font-bold text-xl rounded border-solid text-black border-[1px] border-black px-2 py-2 m-0 shadow-lg shadow-black">Book Us</button></Link>
+          <Link href={'/booking'} className="mt-4 font-bold flex justify-center hover:no-underline w-fit mx-auto"><button className="bg-[aquamarine] hover:text-white hover:bg-[fuchsia] hover:scale-105 mx-auto font-bold text-xl rounded border-solid text-black border-[1px] border-black px-2 py-2 m-0">Book Us</button></Link>
         </div>
         </div>
 
