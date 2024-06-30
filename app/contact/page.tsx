@@ -12,7 +12,7 @@ const Contact: NextPage = () => {
             <Head key={'contact'}>
                 <title>Contact</title>
             </Head>
-            <div className='flex min-h-screen flex-col items-center justify-between  py-16'>
+            <div className='flex min-h-screen flex-col items-center justify-between  py-20'>
                 <Header />
                 <h1 className='dancing  text-4xl font-bold border-b-[1px] max-w-[50%] my-4 pb-2 mx-auto border-black'>
                     Contact

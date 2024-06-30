@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export default function Navbar() {
 
     return(
-        <nav className="w-full h-12 font-medium z-10 fixed flex items-center">
+        <nav className="w-full h-16 bg-white shadow-sm shadow-black font-medium z-10 fixed flex items-center">
             <div className="max-w-5xl text-lg flex w-full mx-auto">
                 <div className="ml-2 [&>a]:hover:underline">
                     <Link href="/" className={lobster.className}>

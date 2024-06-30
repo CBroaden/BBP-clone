@@ -7,7 +7,7 @@ import Link from "next/link";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import 'swiper/css'
 
-const slides = ['/slides1/c9.jpg','/slides1/a4.jpg','/slides1/heart.jpg','/slides1/g6.jpg','/slides1/c1.jpg','/slides1/g52.JPG','/slides1/prop1.jpg','/slides1/prop2.jpg']
+const slides = ['/slides1/c9.jpg','/slides1/a4.jpg','/slides1/heart.jpg','/slides1/g6.jpg','/slides1/c1.jpg','/slides1/g52.jpg','/slides1/prop1.jpg','/slides1/prop2.jpg']
 
 
 export default function Carousel1() {

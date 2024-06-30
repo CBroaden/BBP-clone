@@ -13,7 +13,7 @@ const serviceCard = {
 
 const Services: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between w-full py-16">
+    <div className="flex min-h-screen flex-col items-center justify-between w-full py-20">
         
             <Header />
         
