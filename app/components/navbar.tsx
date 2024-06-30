@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export default function Navbar() {
 
     return(
-        <nav className="w-full h-16 bg-white shadow-sm shadow-black font-medium z-10 fixed flex items-center">
+        <nav className="w-full h-16 bg-white shadow-sm shadow-black font-medium z-20 fixed flex items-center">
             <div className="max-w-5xl text-lg flex w-full mx-auto">
                 <div className="ml-2 [&>a]:hover:underline">
                     <Link href="/" className={lobster.className}>
@@ -40,11 +40,11 @@ export default function Navbar() {
                         Contact
                     </Link>
                 </div>
-                <button onClick={toggleSidebar} id="hamburger" className="lg:hidden inline-flex items-center text-3xl ml-auto mr-8">
+                <button onClick={toggleSidebar} id="hamburger" className="lg:hidden inline-flex items-center text-3xl ml-auto mr-12">
                     <GiHamburgerMenu />
                 </button>
 
-                <div id="sidebar" className="lg:hidden absolute right-4 top-10 ">
+                <div id="sidebar" className="hidden absolute right-0 top-16 ">
                     <Sidebar />
                 </div>
                 

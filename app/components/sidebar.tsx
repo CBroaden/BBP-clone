@@ -10,7 +10,7 @@ export default function Sidebar() {
 
 
     return (
-        <div className="w-full h-full flex flex-col items-center justify-center">
+        <div className="w-32 h-32 pb-1 shadow-sm shadow-black bg-white border-l border-b border-neutral-600 font-bold flex flex-col items-center justify-around">
             <Link href="/booking" className={playfair.className}>
                         Book Us
                     </Link>
