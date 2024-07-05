@@ -13,7 +13,7 @@ const slides = ['/slides1/c9.jpg','/slides1/a4.jpg','/slides1/heart.jpg','/slide
 export default function Carousel1() {
   return (
     
-        <div className="border-y-2 w-[96vw] max-w-6xl mx-auto border-black bg-zinc-300">
+        <div className="border-y-2 w-[96vw] mx-auto border-black bg-zinc-300">
         <Swiper
           className=" my-1 h-[40vw]"
           spaceBetween={1}
