@@ -20,5 +20,5 @@ body {
 }
 
 a {
-  @apply hover:underline ;
+  @apply no-underline ;
 }
