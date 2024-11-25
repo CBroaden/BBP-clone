@@ -26,7 +26,7 @@ export default function Navbar() {
             <div className="max-w-7xl text-lg flex w-full mx-auto">
                 <div className="ml-2 ">
                     <Link href="/" className={lobster.className}>
-                        <Image width={250} height={5} src="/BellasBalloonsBasic.svg" alt="BellasBalloons" className=""/>
+                        <Image width={250} height={5} src="/BellasBalloonsBasic.svg" alt="BellasBalloons" className="hover:scale-105"/>
                     </Link>
                 </div>
                 

@@ -9,7 +9,7 @@ const playfair = Playfair_Display({
 export default function Header() {
 
     return(
-        <div className="flex flex-col items-center mx-auto font-bold w-fit bg-gradient-radial from-white from-15% via-fuchsia-300 via-40% to-70% to-white">
+        <div className="flex flex-col items-center mx-auto font-bold w-fit bg-gradient-radial from-white from-25% via-fuchsia-300 via-45% to-65% to-white">
           <Image height={350} width={350} alt="Three Balloons" src='/BellasBalloons.svg' 
           className="mx-auto my-auto"/>
           
