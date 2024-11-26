@@ -1,17 +1,15 @@
 import Image from "next/image"
-import { Playfair_Display } from "next/font/google"
-
-const playfair = Playfair_Display({ 
-    subsets: ["latin"] ,
-    variable: '--font-playfair'
-  });
 
 export default function Header() {
 
     return(
-        <div className="flex flex-col items-center mx-auto font-bold w-fit bg-gradient-radial from-white from-25% via-fuchsia-200 via-45% to-65% to-white">
-          <Image height={350} width={350} alt="Three Balloons" src='/BellasBalloons.svg' 
-          className="mx-auto my-auto"/>
+        <div className="flex flex-col md:flex-row max-w-4xl items-center mx-auto w-fit bg-gradient-radial from-white from-25% via-fuchsia-200 via-45% to-65% to-white">
+          <Image height={350} width={350} alt="Three Balloons" src='/BellasBalloons.svg' className="mx-auto my-auto"/>
+          <div className="w-1/2 mx-auto my-auto flex flex-col gap-4">
+            <h1 className='font-marker w-full text-center md:text-left text-xl'>Bella&apos;s Balloons & Backdrops</h1>
+            <p className='font-roboto mx-auto text-lg'>Elevate your event with our stunning photo backdrops and balloon decorations. We add a touch of magic to your celebrations. Let&apos;s make your moments unforgettable!</p>
+            <button className="button ">Order Now!</button>
+          </div>
           
         </div>
     )

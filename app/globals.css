@@ -22,3 +22,7 @@ body {
 a {
   @apply no-underline ;
 }
+
+.button {
+  @apply font-marker text-lg py-2 px-4 border border-black hover:bg-black hover:text-white hover:font-extrabold hover:shadow-xl hover:shadow-fuchsia-600 transition-all ease-in-out duration-300 rounded-lg;
+}

@@ -14,7 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        serif: ['var(--font-playfair)'],
+        marker: ["var(--font-merienda)"],
+        roboto: ["var(--font-roboto)"],
+        poppins: ["var(--font-poppins)"],
 
       }
     },

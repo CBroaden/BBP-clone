@@ -1,23 +1,9 @@
 import Link from "next/link";
-import { Playfair_Display, Lobster_Two } from "next/font/google";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Sidebar from "./sidebar";
 import  toggleSidebar  from "../functions/toggleSidebar";
 import Image from "next/image";
 
-
-const playfair = Playfair_Display({ 
-    subsets: ["latin"] ,
-    variable: '--font-playfair',
-    display: 'swap'
-  });
-
-  const lobster = Lobster_Two({ 
-    subsets: ["latin"] ,
-    weight: "700",
-    variable: '--font-lobster',
-    display: 'swap'
-  });
 
 export default function Navbar() {
 
@@ -25,21 +11,21 @@ export default function Navbar() {
         <nav className="w-full h-16 bg-white shadow-sm shadow-black font-medium z-20 fixed flex items-center">
             <div className="max-w-7xl text-lg flex w-full mx-auto">
                 <div className="ml-2 ">
-                    <Link href="/" className={lobster.className}>
-                        <Image width={250} height={5} src="/BellasBalloonsBasic.svg" alt="BellasBalloons" className="hover:scale-105"/>
+                    <Link href="/" className='font-marker'>
+                        <Image width={250} height={5} src="/BellasBalloonsBasic.svg" alt="BellasBalloons" className="hover:scale-105 transition-all ease-in-out duration-75"/>
                     </Link>
                 </div>
                 
                 <div className="hidden lg:flex text-xl justify-around content-center my-auto ml-auto w-1/2 md:w-1/3">
-                    <Link href="/booking" className={playfair.className}>
+                    <Link href="/booking" className='font-marker'>
                         Book Us
                     </Link>
 
-                    <Link href="/services" className={playfair.className}>
+                    <Link href="/services" className='font-marker'>
                         Services
                     </Link>
 
-                    <Link href="/contact" className={playfair.className}>
+                    <Link href="/contact" className='font-marker'>
                         Contact
                     </Link>
                 </div>

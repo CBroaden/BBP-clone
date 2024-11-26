@@ -7,13 +7,15 @@ import Header from '../components/header'
 //50% Deposit Due Immediately / Remainder Due 48hrs before Event
 const Booking: NextPage = () => {
   return (
-    <>
+    <div>
         <Head key={'booking'}>
             <title>Booking</title>
         </Head>
         
-        <div className='flex min-h-screen flex-col mx-auto mb-10 w-10/12 py-20'>
+        <div className='flex min-h-screen items-center flex-col mx-auto mb-10 py-20'>
             <Header />
+            
+            <div className='max-w-4xl'>
             <h1 className=' text-center text-3xl border-b-[1px] max-w-[50%] my-5 pb-2 mx-auto border-black'>
                 Payment
             </h1>
@@ -30,13 +32,15 @@ const Booking: NextPage = () => {
                 Past due deposits risk booking <span className='underline text-red-700 text-shadow'>CANCELLATION.</span>
             </p>
             <Link className='text-2xl' href='https://www.honeybook.com/widget/bella_backdrops_props_226668' >
-                <button className='font-bold bg-[aquamarine] hover:text-white hover:bg-[fuchsia] rounded border-solid text-black border-[1px] border-black px-2 py-2 mt-6'>
+                <button className='button'>
                     Book Us!
                 </button>
             </Link>
+            </div>
+
         </div>
 
-    </>
+    </div>
   )
 }
 

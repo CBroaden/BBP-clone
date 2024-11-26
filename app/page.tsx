@@ -27,12 +27,12 @@ export default function Home() {
               <p className=' mx-auto indent-6 mb-8'>We <span className='font-bold text-shadow  text-[fuchsia]'>PRIDE</span> ourselves on providing excellent customer service and attention to detail is our top priority. Providing the newest and most quality theme props.</p>
               <p className=' mx-auto indent-6 mb-8'>We <span className='font-bold text-shadow  text-yellow-500'>GUARANTEE</span> on time delivery, professional set up, and clean up.</p>
             </div>
-            <Link className=' font-bold flex justify-center hover:no-underline w-fit mx-auto gentium ' href='/services' ><button className=' bg-[aquamarine] hover:text-white hover:bg-yellow-500 hover:scale-105 text-xl rounded border-solid text-black border-[1px] border-black px-2 py-2 m-0'>What Do We Offer?</button></Link>
+            <Link className='flex justify-center hover:no-underline w-fit mx-auto gentium ' href='/services' ><button className="button">What Do We Offer?</button></Link>
           </div>
 
         <div className="pt-1 md:max-w-[40%]">
           <Image src="calendar.svg" alt="Calendar" width={400} height={400} className="mx-auto"/>
-          <Link href={'/booking'} className="mt-4 font-bold flex justify-center hover:no-underline w-fit mx-auto"><button className="bg-[aquamarine] hover:text-white hover:bg-[fuchsia] hover:scale-105 mx-auto font-bold text-xl rounded border-solid text-black border-[1px] border-black px-2 py-2 m-0">Book Us</button></Link>
+          <Link href={'/booking'} className="mt-4 flex justify-center hover:no-underline w-fit mx-auto"><button className="button">Book Us</button></Link>
         </div>
         </div>
 
