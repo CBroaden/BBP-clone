@@ -15,7 +15,7 @@ const Booking: NextPage = () => {
         <div className='flex min-h-screen items-center flex-col mx-auto mb-10 py-20'>
             <Header />
             
-            <div className='max-w-4xl'>
+            <div className='max-w-4xl w-4/5'>
             <h1 className=' text-center text-3xl border-b-[1px] max-w-[50%] my-5 pb-2 mx-auto border-black'>
                 Payment
             </h1>

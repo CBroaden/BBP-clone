@@ -15,14 +15,26 @@ body {
   }
 }
 
+p {
+  @apply font-roboto;
+}
+
+h1 {
+  @apply font-marker;
+}
+
 .text-shadow {
   text-shadow: black 1px 1px 1px;
 }
 
 a {
-  @apply no-underline ;
+  @apply no-underline font-roboto;
 }
 
 .button {
-  @apply font-marker text-lg py-2 px-4 border border-black hover:bg-black hover:text-white hover:font-extrabold hover:shadow-xl hover:shadow-fuchsia-600 transition-all ease-in-out duration-300 rounded-lg;
+  @apply font-marker text-lg py-2 px-4 border border-black hover:bg-black hover:scale-105 hover:text-white hover:font-extrabold hover:shadow-xl hover:shadow-fuchsia-600 transition-all ease-in-out duration-300 rounded-lg;
+}
+
+.navlink {
+  @apply py-2 px-4 hover:bg-neutral-200 hover:shadow transition-all ease-in-out duration-300 shadow-black rounded-full ;
 }

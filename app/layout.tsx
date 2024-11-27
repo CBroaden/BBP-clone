@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Merienda, Poppins, Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 import Head from "next/head";
 import Header from "./components/header";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${merienda.variable} ${roboto.variable}`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
