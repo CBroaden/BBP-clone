@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import Header from '../components/header'
+import Image from 'next/image'
 
 // TODO: TURN INTO MODAL
 //50% Deposit Due Immediately / Remainder Due 48hrs before Event
@@ -13,8 +13,8 @@ const Booking: NextPage = () => {
         </Head>
         
         <div className='flex min-h-screen items-center flex-col mx-auto mb-10 py-20'>
-            <Header />
-            
+
+            <Image height={350} width={350} alt="Bellas Balloons Logo" src='/BellasBalloons.svg' className="mx-auto my-auto"/>
             <div className='max-w-4xl w-4/5'>
             <h1 className=' text-center text-3xl border-b-[1px] max-w-[50%] my-5 pb-2 mx-auto border-black'>
                 Payment

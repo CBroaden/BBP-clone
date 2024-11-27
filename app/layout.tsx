@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Head from "next/head";
 import Header from "./components/header";
+import Link from "next/link";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -38,6 +39,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      
 
       <body className={`${poppins.variable} ${merienda.variable} ${roboto.variable}`}>
         <Navbar />
