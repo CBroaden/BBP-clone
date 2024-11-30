@@ -28,8 +28,8 @@ const merienda = Merienda({
 
 
 export const metadata: Metadata = {
-  title: "Bella Backdrops & Props",
-  description: "Balloon Decoration service based in the Detroit Metropolitan Area",
+  title: "Bella's Balloons & Backdrops",
+  description: "Elevate your event with our stunning photo backdrops and balloon decorations. We add a touch of magic to any celebrations in or around the Detroit area!",
 };
 
 export default function RootLayout({
