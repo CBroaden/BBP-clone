@@ -73,8 +73,8 @@ const Services: NextPage = () => {
 
         <div className="relative rounded-xl shadow-black shadow-lg w-44 h-60 mx-auto my-3 bg-opacity-90 bg-white border-solid border-black border-[1px] p-2">
           <Image
-            width={200}
-            height={200}
+            width={75}
+            height={75}
             alt="Jumbo Topper Centerpiece"
             className="m-auto object-contain h-[75%]"
             src="/bbp/Centerpiece-with-jumbo.png"

@@ -15,9 +15,9 @@ export default function Carousel1() {
     
         <div className="border-y-2 w-[96vw] mx-auto border-black bg-zinc-300">
         <Swiper
-          className=" my-1 h-[40vw]"
+          className=" my-1 h-[25vw]"
           spaceBetween={1}
-          slidesPerView={3}
+          slidesPerView={5}
           loop
           modules={[Navigation, Pagination, Autoplay]}
           pagination={{ clickable: true , type: 'bullets'}}
