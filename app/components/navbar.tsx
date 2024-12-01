@@ -16,11 +16,14 @@ export default function Navbar() {
             <div className="max-w-7xl text-lg flex w-full mx-auto">
                 <div className="ml-2 ">
                     <Link href="/" onClick={closeSidebar} className='font-marker'>
-                        <Image width={175} height={5} src="/BellasBalloonsBasic.svg" alt="BellasBalloons" className="hover:scale-105 transition-all ease-in-out duration-75"/>
+                        <Image width={165} height={5} src="/BellasBalloonsBasic.svg" alt="BellasBalloons" className="hover:scale-105 transition-all ease-in-out duration-200"/>
                     </Link>
                 </div>
                 
-                <div className="hidden lg:flex text-sm justify-around content-center my-auto ml-auto w-1/2 md:w-1/3">
+                <div className="hidden lg:flex text-sm gap-2 justify-around content-center my-auto ml-auto  ">
+                    <Link href="/" onClick={closeSidebar} className='navlink font-marker'>
+                        Home
+                    </Link>
                     <Link href="/services" onClick={closeSidebar} className='navlink font-marker'>
                         Services
                     </Link>

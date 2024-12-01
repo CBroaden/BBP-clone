@@ -32,7 +32,7 @@ export default function Home() {
 
         <div className="pt-1 md:max-w-[40%]">
           <Image src="calendar.svg" alt="Calendar" width={400} height={400} className="mx-auto"/>
-          <Link href={'/booking'} className="mt-4 flex justify-center hover:no-underline w-fit mx-auto"><button className="button">Book Us</button></Link>
+          <Link href={'/booking'} className=" flex justify-center hover:no-underline w-fit mx-auto"><button className="button">Book Us</button></Link>
         </div>
         </div>
 
@@ -44,11 +44,11 @@ export default function Home() {
           <h1 className=' text-center text-2xl font-medium border-b-[1px] min-w-fit max-w-[50%] my-4 pb-2 mx-auto border-black'>Bella Backdrops & Props</h1>
           
           <div className='text-center text-xl'>
-            <Link href='tel:3134095785' className='hover:text-[aquamarine] underline  w-fit gentium mx-auto'> (313)-409-5785 </Link>
+            <Link href='tel:3134095785' className='hover:text-[aquamarine] w-fit mx-auto'> (313)-409-5785 </Link>
           </div>
 
           <div className='text-center w-full text-lg'>
-            <Link href='mailto:bellabackdropsandprops@gmail.com' className='hover:text-[aquamarine] underline mx-auto mb-4'>bellabackdropsandprops@gmail.com</Link>
+            <Link href='mailto:bellabackdropsandprops@gmail.com' className='hover:text-[aquamarine] mx-auto mb-4'>bellabackdropsandprops@gmail.com</Link>
           </div>
         </div>
       </div>

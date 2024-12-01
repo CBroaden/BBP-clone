@@ -11,6 +11,7 @@ const Contact: NextPage = () => {
         <div>
             <Head key={'contact'}>
                 <title>Contact</title>
+                <meta key={'contact description'} name="description" content="Bella's Balloons & Backdrops Contact Information" />
             </Head>
             <div className='flex min-h-screen flex-col items-center justify-between  py-20'>
                 <Header />
