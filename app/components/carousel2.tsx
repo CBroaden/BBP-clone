@@ -34,7 +34,8 @@ export default function Carousel2() {
               className="relative "
             >
               <Image
-                fill
+                width={500}
+                height={500}
                 className="absolute object-cover"
                 alt="Examples of work by Bella Backdrops and Props"
                 src={slide}

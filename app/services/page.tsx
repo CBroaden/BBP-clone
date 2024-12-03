@@ -18,7 +18,7 @@ const Services: NextPage = () => {
             <Header />
         
         
-      <h1 className="text-center text-4xl border-b-[1px] max-w-[50%] my-8 pb-2 mx-auto border-black">
+      <h1 className="text-center text-2xl border-b-[1px] max-w-[50%] my-8 pb-2 mx-auto border-black">
         Services
       </h1>
       <div className="w-10/12 m-auto flex flex-wrap content-evenly items-center">
