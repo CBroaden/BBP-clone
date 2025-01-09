@@ -73,14 +73,14 @@ const Services: NextPage = () => {
 
         <div className="relative rounded-xl shadow-black shadow-lg w-44 h-60 mx-auto my-3 bg-opacity-90 bg-white border-solid border-black border-[1px] p-2">
           <Image
-            width={75}
-            height={75}
+            width={200}
+            height={200}
             alt="Jumbo Topper Centerpiece"
             className="m-auto object-contain h-[75%]"
             src="/bbp/Centerpiece-with-jumbo.png"
           />
-          <h1 className="text-center mx-auto text-sm font-bold ">
-            Jumbo Topper Centerpiece
+          <h1 className="text-center mx-auto font-bold ">
+            Jumbo Centerpiece
           </h1>
           <h1 className="text-center">
             Starting at{" "}
@@ -96,7 +96,7 @@ const Services: NextPage = () => {
             className="m-auto object-contain h-[73%]"
             src="/bbp/Classic-Column.png"
           />
-          <h1 className="text-center py-1  font-bold ">
+          <h1 className="text-center py-1 text-nowrap  font-bold ">
             Classic Column
           </h1>
           <h1 className="text-center">
@@ -113,7 +113,7 @@ const Services: NextPage = () => {
             className="m-auto object-contain aspect-square"
             src="/bbp/organic-arch-1.png"
           />
-          <h1 className="text-center py-1  font-bold ">
+          <h1 className="text-center py-1 text-nowrap  font-bold ">
             Box Organic Arch
           </h1>
           <h1 className="text-center">
@@ -130,7 +130,7 @@ const Services: NextPage = () => {
             className="m-auto object-contain aspect-square"
             src="/bbp/organic-arch-2.png"
           />
-          <h1 className="text-center py-1  font-bold ">
+          <h1 className="text-center py-1 text-nowrap font-bold ">
             {" "}
             8x10ft Organic Arch
           </h1>

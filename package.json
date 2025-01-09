@@ -2,6 +2,7 @@
   "name": "bellabackdrops",
   "author": "Carl Broaden Jr.",
   "version": "2.0.0",
+  "description": "Elevate your event with stunning photo backdrops and balloon decorations by Bella's Balloons & Backdrops. We add a touch of magic to your celebrations.",
   "private": true,
   "scripts": {
     "dev": "next dev",
