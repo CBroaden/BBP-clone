@@ -20,7 +20,7 @@ const slides2 = [
 export default function Carousel2() {
   return (
     
-        <div className="border-y-2 w-[96vw] mx-auto my-16 border-black bg-zinc-300">
+        <div className="border-y-2 w-[98vw] mx-auto m-16 border-black bg-zinc-300">
         <Swiper
           className=" my-1 h-[24vw]"
           spaceBetween={1}

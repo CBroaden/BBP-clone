@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between py-16">
       <Header /> 
-      <div className="mt-0">  
+      <div className="">  
              
         <Carousel2 />
         
