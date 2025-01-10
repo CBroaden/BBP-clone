@@ -23,10 +23,10 @@ const Booking: NextPage = () => {
                 50% Payment Deposit due on the date of booking.
             </p>
             <p className='text-2xl mb-4'>
-                Bookings MUST be made <span className='underline text-yellow-700'>TWO WEEKS</span> prior to your Event.<span className='underline text-mustard text-outline'>(Rush Fees Apply Otherwise)</span> 
+                Bookings MUST be made <span className='underline text-orange-500 text-shadow'>TWO WEEKS</span> prior to your Event.<span className='underline text-orange-500 text-shadow'>(Rush Fees Apply Otherwise)</span> 
             </p>
             <p className='text-2xl mb-4'>
-                Full Payment MUST be made a minimum of <span className='underline text-orange-700'>48 HOURS</span> before the date of your booked event.
+                Full Payment MUST be made a minimum of <span className='underline text-orange-500 text-shadow'>48 HOURS</span> before the date of your booked event.
             </p>
             <p className='text-2xl mb-4'>
                 Past due deposits risk booking <span className='underline text-red-700 text-shadow'>CANCELLATION.</span>
