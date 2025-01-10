@@ -8,10 +8,13 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import 'swiper/css'
 
 const slides2 = [
-  "/slides2/a3.jpg",
-  "/slides2/bd3.jpg",
-  "/slides2/c10.jpg",
-  "/slides2/prop32.jpg",
+  "/slides2/ls1.jpg",
+  "/slides2/ls2.jpg",
+  "/slides2/ls3.jpg",
+  "/slides2/ls4.jpg",
+  "/slides2/ls5.jpg",
+  "/slides2/ls6.jpg",
+  "/slides2/ls7.jpg"
 ];
 
 export default function Carousel2() {
