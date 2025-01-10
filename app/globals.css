@@ -27,6 +27,14 @@ h1 {
   text-shadow: black 1px 1px 1px;
 }
 
+.text-outline {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.remove-text-outline {
+  text-shadow: -1px -1px 0 transparent, 1px -1px 0 transparent, -1px 1px 0 transparent, 1px 1px 0 transparent;
+}
+
 a {
   @apply no-underline font-roboto;
 }
@@ -54,4 +62,11 @@ a {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/confetti-bg.jpg);
+  background-size: cover;
 }

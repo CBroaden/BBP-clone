@@ -12,9 +12,10 @@ const playfair = Playfair_Display({
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between py-20">
-      <div className="">  
-        <Header />      
+    <main className="flex min-h-screen flex-col items-center justify-between py-16">
+      <Header /> 
+      <div className="mt-0">  
+             
         <Carousel2 />
         
         <div id="container" className="md:max-w-4xl mx-auto w-4/5">

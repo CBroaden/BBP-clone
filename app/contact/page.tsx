@@ -13,7 +13,7 @@ const Contact: NextPage = () => {
                 <title>Contact</title>
                 <meta key={'contact description'} name="description" content="Bella's Balloons & Backdrops Contact Information" />
             </Head>
-            <div className='flex min-h-screen flex-col items-center justify-between  py-20'>
+            <div className='flex min-h-screen flex-col items-center justify-between  py-16'>
                 <Header />
                 <h1 className='font-marker text-2xl border-b-[1px] max-w-[50%] my-4 pb-2 mx-auto border-black'>
                     Contact

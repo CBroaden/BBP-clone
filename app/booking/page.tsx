@@ -12,7 +12,7 @@ const Booking: NextPage = () => {
             <title>Booking</title>
         </Head>
         
-        <div className='flex min-h-screen items-center flex-col mx-auto mb-10 py-20'>
+        <div className='flex min-h-screen items-center flex-col mx-auto mb-10 py-16'>
 
             <Image height={350} width={350} alt="Bellas Balloons Logo" src='/BellasBalloons.svg' className="mx-auto my-auto"/>
             <div className='max-w-4xl w-4/5'>
